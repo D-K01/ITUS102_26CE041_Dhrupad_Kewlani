@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata: Character encoding, viewport, author, description, title, and favicon -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Front-End Web Developer">
+    <meta name="description" content="GreenLeaf Organics Pvt. Ltd. - Fresh, certified organic food products, farm-to-table delivery, and sustainable farming solutions.">
+    <title>GreenLeaf Organics Pvt. Ltd. | Pure &amp; Certified Organic Foods</title>
+    <link rel="icon" type="image/png" href="images/greenleaf-logo.png">
+</head>
+<body>
+
+
+    <!-- Header Section with Company Logo and Navigation Menu -->
+    <header>
+        <div>
+            <img src="images/greenleaf-logo.jpeg" alt="GreenLeaf Organics Pvt. Ltd. Logo" width="120" height="100">
+            <h1>GreenLeaf Organics Pvt. Ltd.</h1>
+            <p><em>Pure, Sustainable, Farm-to-Table Organic Foods</em></p>
+        </div>
+
+
+        <nav aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products &amp; Services</a></li>
+                <li><a href="#pricing">Catalog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content Area -->
+    <main>
+
+
+        <!-- Featured Section / Image Banner -->
+        <section id="featured">
+            <h2>Harvested Fresh, Delivered Pure</h2>
+            <figure>
+                <img src="images/organic-farm-banner.jpg" alt="Freshly harvested organic vegetables and fruits in a wooden basket" width="800" height="350">
+                <figcaption>100% Certified Organic Produce directly from local sustainable farms.</figcaption>
+            </figure>
+            <p><a href="#products">Explore Our Organic Range</a></p>
+        </section>
+
+
+        <!-- About the Company Section -->
+        <section id="about">
+            <h2>About GreenLeaf Organics</h2>
+            <p>
+                <strong>GreenLeaf Organics Pvt. Ltd.</strong> is a newly established company dedicated to making chemical-free, nutrient-rich organic food accessible to every household. We partner directly with certified organic farmers to ensure ethical sourcing and eco-friendly packaging.
+            </p>
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>100% Certified Organic &amp; Non-GMO products</li>
+                <li>Zero synthetic pesticides or artificial preservatives</li>
+                <li>Direct fair-trade partnerships with local farmers</li>
+                <li>Biodegradable and zero-plastic packaging</li>
+            </ul>
+        </section>
+
+
+        <!-- Products and Services Section using <article> -->
+        <section id="products">
+            <h2>Our Products &amp; Services</h2>
+
+
+            <article>
+                <h3>Organic Fruits &amp; Vegetables</h3>
+                <p>Seasonal, hand-picked greens, roots, and orchard fruits harvested within 24 hours of delivery.</p>
+            </article>
+
+
+            <article>
+                <h3>Cold-Pressed Oils &amp; Grains</h3>
+                <p>Unrefined groundnut, coconut, and sesame oils alongside heirloom millets, pulses, and whole grains.</p>
+            </article>
+
+
+            <article>
+                <h3>Weekly Farm-Box Subscription</h3>
+                <p>Customized weekly baskets of fresh produce delivered straight to your doorstep every Sunday morning.</p>
+            </article>
+        </section>
+
+
+        <!-- Product Catalog Table -->
+        <section id="pricing">
+            <h2>Featured Product Price List</h2>
+            <table border="1">
+                <caption>Current Weekly Organic Essentials</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Unit</th>
+                        <th scope="col">Price (INR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Organic Alphonso Mangoes</td>
+                        <td>Fruits</td>
+                        <td>1 Dozen</td>
+                        <td>&#8377;850</td>
+                    </tr>
+                    <tr>
+                        <td>Cold-Pressed Groundnut Oil</td>
+                        <td>Oils</td>
+                        <td>1 Litre</td>
+                        <td>&#8377;320</td>
+                    </tr>
+                    <tr>
+                        <td>Heirloom Foxtail Millet</td>
+                        <td>Grains</td>
+                        <td>1 Kg</td>
+                        <td>&#8377;140</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Complementary Sidebar Content using <aside> -->
+        <aside>
+            <h3>Seasonal Offer</h3>
+            <p>Use code <strong>GREEN15</strong> on your first Weekly Farm-Box subscription to get 15% off and a complimentary jar of raw wildflower honey!</p>
+        </aside>
+
+
+        <!-- Contact Information and Inquiry Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <address>
+                <strong>GreenLeaf Organics Pvt. Ltd.</strong><br>
+                Plot 42, Green Valley Agro Park, Anand, Gujarat 388001<br>
+                Email: <a href="mailto:support@greenleaforganics.in">support@greenleaforganics.in</a><br>
+                Phone: <a href="tel:+919876543210">+91 98765 43210</a>
+            </address>
+
+
+            <h3>Send Us an Inquiry</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="interest">Interested In:</label><br>
+                    <select id="interest" name="interest">
+                        <option value="produce">Fresh Produce</option>
+                        <option value="subscription">Weekly Farm-Box</option>
+                        <option value="wholesale">Bulk / Retail Partnership</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </section>
+
+
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 GreenLeaf Organics Pvt. Ltd. All Rights Reserved.</p>
+        <p>
+            Follow us: 
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer">Instagram</a> | 
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
