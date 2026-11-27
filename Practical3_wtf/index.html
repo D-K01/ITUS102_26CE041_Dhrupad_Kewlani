@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Practical 3 - JavaScript Banking Utilities</title>
+</head>
+<body>
+    <h1>Practical 3: JavaScript Fundamentals</h1>
+    <p>This practical demonstrates variables, operators, conditions, loops, functions, user input, and banking calculations.</p>
+
+    <section>
+        <h2>1. Variables: var, let and const</h2>
+        <button onclick="showVariables()">Run Variable Demo</button>
+        <p id="variableResult" class="result"></p>
+    </section>
+
+    <section>
+        <h2>2. Operators</h2>
+        <label>Number 1:</label><input type="number" id="num1" value="25"><br>
+        <label>Number 2:</label><input type="number" id="num2" value="16"><br>
+        <button onclick="showOperators()">Run Operator Demo</button>
+        <div id="operatorResult" class="result"></div>
+    </section>
+
+    <section>
+        <h2>3. Loan Eligibility - if / if-else / nested if</h2>
+        <label>Age:</label><input type="number" id="age" value="26"><br>
+        <label>Monthly Income:</label><input type="number" id="income" value="50000"><br>
+        <label>Credit Score:</label><input type="number" id="creditScore" value="729"><br>
+        <button onclick="checkLoanEligibility()">Check Eligibility</button>
+        <p id="loanResult" class="result"></p>
+    </section>
+
+    <section>
+        <h2>4. Account Type - switch</h2>
+        <label>Choose Account:</label>
+        <select id="accountType">
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+            <option value="salary">Salary</option>
+        </select>
+        <button onclick="showAccountBenefit()">Show Benefit</button>
+        <p id="accountResult" class="result"></p>
+    </section>
+
+    <section>
+        <h2>5. Simple Interest Table - for loop</h2>
+        <label>Principal Amount:</label><input type="number" id="principal" value="10000"><br>
+        <label>Rate (%):</label><input type="number" id="rate" value="6.1"><br>
+        <button onclick="generateInterestTable()">Generate 5-Year Table</button>
+        <div id="interestResult" class="result"></div>
+    </section>
+
+    <section>
+        <h2>6. Loop Demo - while and do-while</h2>
+        <button onclick="runLoopDemo()">Run Loop Demo</button>
+        <div id="loopResult" class="result"></div>
+    </section>
+
+    <section>
+        <h2>7. EMI Calculator - Function with Parameters and Return Value</h2>
+        <label>Loan Amount:</label><input type="number" id="loanAmount" value="100000"><br>
+        <label>Annual Interest Rate (%):</label><input type="number" id="emiRate" value="12"><br>
+        <label>Loan Period (Months):</label><input type="number" id="months" value="12"><br>
+        <button onclick="calculateAndShowEMI()">Calculate EMI</button>
+        <p id="emiResult" class="result"></p>
+    </section>
+
+    <script src="practical3.js"></script>
+</body>
+</html>

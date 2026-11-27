@@ -1,0 +1,33 @@
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 900px; 
+    margin: 30px auto; 
+    padding: 0 16px; 
+    line-height: 1.5;
+    background-color: #20143e;
+    color: #d69738; 
+    } 
+h1 { 
+    text-align: center; 
+    }
+section { 
+    border: 1px solid #ccc; 
+    padding: 16px; 
+    margin-bottom: 18px; 
+    border-radius: 8px; 
+    }
+label { 
+        display: inline-block; 
+        min-width: 180px; 
+        margin: 6px 0; 
+    }
+input, select, button { 
+    padding: 7px; 
+    margin: 4px; }
+button { 
+    cursor: pointer; 
+}
+.result { 
+    margin-top: 10px; 
+    font-weight: bold; 
+}
